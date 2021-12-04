@@ -12,7 +12,7 @@ keywords = ["clipboard", "window", "ui", "gui", "raw-window-handle"]
 categories = ["gui"]
 
 [dependencies]
-raw-window-handle = "0.3"
+raw-window-handle = "0.4"
 
 [target.'cfg(windows)'.dependencies]
 clipboard-win = { version = "4.0", features = ["std"] }
@@ -26,7 +26,7 @@ clipboard_wayland = { version = "0.2", path = "./wayland" }
 
 [dev-dependencies]
 rand = "0.8"
-winit = "0.23"
+winit = "0.26"
 
 [workspace]
 members = [
